@@ -1,0 +1,33 @@
+info:
+  title: 超威蓝猫2077
+  author: 超威蓝猫2077
+  url: https://blog.thomaswcy.com
+defaults:
+  logo: /images/avatar.jpg
+  avatar: /images/avatar.jpg
+global:
+  chinese:
+    enable: true
+    family: Noto Sans SC
+    url: https://fonts.font.im/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap
+  english:
+    enable: true
+    family: Farsan
+    url: https://fonts.font.im/css2?family=Farsan&display=swap
+  scroll_progress:
+    bar: true
+home_banner:
+  style: fixed
+  title: 超威蓝猫2077的博客
+  social_links:
+    enable: true
+    links:
+      github: https://github.com/thomaswcy
+      twitter: https://twitter.com/thomaswcy
+      linkedin: https://www.linkedin.com/in/thomaswu3/
+      fa-solid fa-envelope: mailto:thomaswcy@hotmail.com
+    qrs:
+      weixin: images/weixin.jpg
+cdn:
+  enable: true
+  provider: aliyun
