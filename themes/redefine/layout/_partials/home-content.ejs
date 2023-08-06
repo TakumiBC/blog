@@ -1,0 +1,71 @@
+<div class="home-content-container">
+    <ul class="home-article-list">
+        <% page.posts.forEach(post => { %>
+            <li class="home-article-item">
+
+                <% if (post.sticky) { %>
+                    <div class="home-article-sticky-label">
+                        <i class="fa-regular fa-thumbtack"></i><%- __('sticky') %>
+                    </div>
+                <% } %>
+
+                <%  let articleThumbnail = "";
+                if (post.cover || post.banner || (post.thumbnail && post.thumbnail !== false)) { %>
+                    <%
+                    if (post.thumbnail && post.thumbnail !== null) {
+                      articleThumbnail = post.thumbnail;
+                    } else if (post.cover && post.cover.includes("/")) {
+                      articleThumbnail = post.cover;
+                    } else if (post.banner && post.banner.includes("/")) {
+                      articleThumbnail = post.banner;
+                    } else if (config.marked.postAsset && config.marked.postAsset == true) {
+                      articleThumbnail = [post.path, post.cover || post.banner].join("/");
+                    }
+                    %>
+                <% } %>
+                <% if (typeof post.thumbnail !== 'undefined' && post.thumbnail === false) {} 
+                
+                else if (post.thumbnail && post.thumbnail !== null) { %>
+                    <div class="home-article-thumbnail">
+                        <a href="<%- url_for(post.path) %>">
+                            <img src="<%- url_for(articleThumbnail) %>" alt="<%= post.title %>" />
+                        </a>
+                    </div>
+                <% } else if (post.cover && post.cover !== null && post.cover !== false) { %>
+                    <div class="home-article-thumbnail">
+                        <a href="<%- url_for(post.path) %>">
+                            <img src="<%- url_for(articleThumbnail) %>" alt="<%= post.title %>" />
+                        </a>
+                    </div>
+                <% } else if (post.banner && post.banner !== null && post.banner !== false) { %>
+                    <div class="home-article-thumbnail">
+                        <a href="<%- url_for(post.path) %>">
+                            <img src="<%- url_for(articleThumbnail) %>" alt="<%= post.title %>" />
+                        </a>
+                    </div>
+                <% } %>
+
+                <h3 class="home-article-title">
+                    <a href="<%- url_for(post.path) %>">
+                        <%= post.title %>
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    <% if (post.excerpt && post.excerpt == "false") { %>
+                    <% } else if (post.excerpt && post.excerpt !== "false") { %>
+                        <%- render(post.excerpt, "markdown") %>
+                    <% } else { %>
+                        <%- truncate(strip_html(post.content), {length: 128}) %>
+                    <% } %>
+                </div>
+
+                <%- partial('_meta/home-article', {post: post}) %>
+            </li>
+        <% }) %>
+    </ul>
+
+    <div class="home-paginator">
+        <%- partial('_widgets/paginator', {pageObject: page}) %>
+    </div>
+</div>

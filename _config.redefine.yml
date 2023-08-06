@@ -31,3 +31,9 @@ home_banner:
 cdn:
   enable: true
   provider: aliyun
+articles:
+  author_label:
+    enable: true
+    list: ["MPV++"]
+footer:
+  start: 2023/8/4 08:03:02
