@@ -1,7 +1,7 @@
 info:
-  title: 超威蓝猫2077
-  author: 超威蓝猫2077
-  url: https://blog.thomaswcy.com
+  title: TakumiBC's Blog
+  author: TakumiBC
+  url: https://takumibc.com
 defaults:
   logo: /images/avatar.jpg
   avatar: /images/avatar.jpg
@@ -18,7 +18,7 @@ global:
     bar: true
 home_banner:
   style: fixed
-  title: 超威蓝猫2077的博客
+  title: TakumiBC's Blog
   social_links:
     enable: true
     links:
