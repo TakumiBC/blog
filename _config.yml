@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 蓝猫的个人博客
+title: "TakumiBC's Blog"
 subtitle: ''
 description: ''
 keywords:
-author: 超威蓝猫2077
-language: zh-CN
+author: TakumiBC
+language: zh-TW
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://takumibc.com
 #permalink: :year/:month/:day/:title/
 #permalink_defaults:
 permalink: posts/:abbrlink/
