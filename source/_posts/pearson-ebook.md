@@ -1,5 +1,6 @@
 ---
 title: 记一次 Pearson 电子书导出破解
+date: 2023-08-06 11:15:41
 license: all_rights_reserved
 abbrlink: 1015678645
 ---
@@ -60,7 +61,8 @@ if __name__ == "__main__":
 
 ```
 
-只需替换 base_url 为 `https://ebook4.ilongman.com/sbo/***/***/OEBPS/images/`这样的格式（链接后面的`/`一定要保留），save_dir 为单元名称，pagenum 为这一单元的总页码数量就可以下载一整个单元的课本页面。
+只需替换 base_url 为 `https://ebook4.ilongman.com/sbo/***/***/OEBPS/images/`这样的格式（链接后面的`/`一定要保留），save_dir
+为单元名称，pagenum 为这一单元的总页码数量就可以下载一整个单元的课本页面。
 
 重复以上步骤直到下载完所有单元的课本页面，然后就可以拼接 pdf 了。
 
