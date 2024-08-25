@@ -1,5 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="node_modules/.pnpm/hexo-server@3.0.0/node_modules/hexo-server/lib/server.js" working-dir="$PROJECT_DIR$">
-    <method v="2" />
-  </configuration>
-</component>

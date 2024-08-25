@@ -1,7 +1,7 @@
 info:
   title: TakumiBC's Blog
   author: TakumiBC
-  url: https://takumibc.com
+  url: https://www.takumibc.com
 defaults:
   logo: /images/avatar.jpg
   avatar: /images/avatar.jpg
@@ -22,8 +22,9 @@ home_banner:
   social_links:
     enable: true
     links:
-      github: https://github.com/thomaswcy
-      twitter: https://twitter.com/thomaswcy
+      github: https://github.com/TakumiBC
+      twitter: https://twitter.com/TakumiBC
+      instagram: https://www.instagram.com/takumibc/
       linkedin: https://www.linkedin.com/in/thomaswu3/
       fa-solid fa-envelope: mailto:thomaswcy@hotmail.com
     qrs:
@@ -34,6 +35,6 @@ cdn:
 articles:
   author_label:
     enable: true
-    list: ["MPV++"]
+    list: [ "MPV++" ]
 footer:
   start: 2023/8/4 08:03:02
