@@ -117,3 +117,12 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+feed:
+  enable: true
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
