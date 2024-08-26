@@ -3,6 +3,7 @@ info:
   author: TakumiBC
   url: https://www.takumibc.com
 defaults:
+  favicon: /images/favicon.jpg
   logo: /images/avatar.jpg
   avatar: /images/avatar.jpg
 global:
