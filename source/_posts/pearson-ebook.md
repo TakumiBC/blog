@@ -11,7 +11,7 @@ abbrlink: 1015678645
 
 于是，没办法，自己激活了官方的电子版，打算把账号密码直接发给别人。结果：
 
-![](images/pearson_pic1.png)
+![](https://www.takumibc.com/images/pearson_pic1.png)
 
 Pearson 的垃圾电子书阅读器根本就不知道怎么翻页，甚至每一页只能看到中间部分，头尾看不到。
 
@@ -19,7 +19,7 @@ Pearson 的垃圾电子书阅读器根本就不知道怎么翻页，甚至每一
 
 打开要下载的对应单元的第一页，
 
-![](images/pearson_pic2.png)
+![](https://www.takumibc.com/images/pearson_pic2.png)
 
 先在检查元素里找图片链接，右键，新建标签页打开（不要直接复制链接，因为图片在iframe里，要打开图片链接后再复制），复制链接，链接是这样的：
 
@@ -68,13 +68,13 @@ if __name__ == "__main__":
 
 打开 Adobe Acrobat DC，选择 创建PDF，再选择 多个文件，合并文件，下一步
 
-![](images/pearson_pic3.png)
+![](https://www.takumibc.com/images/pearson_pic3.png)
 
 选择添加文件，然后把图片按单元顺序依次全选拖入 Adobe Acrobat DC 中。
 
 最后，选择 合并 即可生成 PDF 文件。
 
-![](images/pearson_pic4.png)
+![](https://www.takumibc.com/images/pearson_pic4.png)
 
 Enjoy~
 

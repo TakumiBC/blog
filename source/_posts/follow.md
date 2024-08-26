@@ -15,13 +15,13 @@ date: 2024-08-25 20:49:27
 
 [Follow](https://github.com/RSSNext/follow)  的主要特色我认为是 AI 和与 [RSSHub](https://rsshub.app/) 的联动。
 
-![](images/CleanShot%202024-08-24%20at%2016.35.18@2x.png)
+![](https://www.takumibc.com/images/CleanShot%202024-08-24%20at%2016.35.18@2x.png)
 如图1所示，[Follow](https://github.com/RSSNext/follow) 中可以直接填入  [RSSHub](https://rsshub.app/) 的 Route。
 
-![](images/CleanShot%202024-08-24%20at%2016.36.45@2x.png)
+![](https://www.takumibc.com/images/CleanShot%202024-08-24%20at%2016.36.45@2x.png)
 而 AI 功能主要是用来总结昨天的新闻。点击按钮后，[Follow](https://github.com/RSSNext/follow)  会根据你订阅的文章自动生成摘要。
 
-![](images/CleanShot%202024-08-24%20at%2016.28.57@2x.png)
+![](https://www.takumibc.com/images/CleanShot%202024-08-24%20at%2016.28.57@2x.png)
 [Follow](https://github.com/RSSNext/follow)  显示推文的方式亦同样独特，把所有推文直接展现在同一个页面上，已经领先所有同行。唯一的缺点是不会把像 Re 和 Rt 这样的标签直接替换为 Twitter 本身显示 Repost 和回复的样式。
 
 ## 总结
