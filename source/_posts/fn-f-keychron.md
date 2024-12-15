@@ -21,7 +21,7 @@ date: 2024-12-15 21:15:00
 
 然后，打开 [Keychron Launcher](https://launcher.keychron.com/)，选择自己的键盘并连接，然后选择左边的 Macro。
 
-![](https://www.takumibc.com/CleanShot_2024-12-15_at_21.13.29@2x.png)
+![](https://www.takumibc.com/images/CleanShot_2024-12-15_at_21.13.29@2x.png)
 
 紧接着，录制一个鼠标宏，比如我使用 M0 作为示范，内容为：
 
@@ -31,7 +31,7 @@ date: 2024-12-15 21:15:00
 
 即按下左 Control 键、左 Command 键和 F 键，然后松开这三个键，并点击 Submit 按钮。
 
-![](https://www.takumibc.com/CleanShot_2024-12-15_at_21.13.39@2x.png)
+![](https://www.takumibc.com/images/CleanShot_2024-12-15_at_21.13.39@2x.png)
 
 然后，点击左边的 Keyboard，选择 Layer 1，并将 F 键映射为对应的鼠标宏（此处即为 M0）。
 
